@@ -40,6 +40,7 @@ public class TourService {
     return tourRepository.findByTourPackageCode(tourPackageCode);
   }
 
+  
   public long total() {
     return tourRepository.count();
   }
